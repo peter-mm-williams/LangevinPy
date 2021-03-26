@@ -8,7 +8,7 @@ python VariableLangevin.py -N "Number of particles" -x "filepath"/"outputname_pr
 python VariableLangevin.py -N 1 -x outputdir/Sim_N1T0.01 -T 0.01 -S 105693 <br />
 
 ### Outputs:
-.xyz file containing the boxed coordinates of the simulation at every timestep
+.xyz file containing the boxed coordinates of the simulation at every timestep <br />
 .dat file containing unboxed coordinates and velocities of particles
 
 ### Dependencies
