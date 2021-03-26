@@ -5,7 +5,7 @@ Python Function adapting the implementation of the Langevin Thermostat from Alle
 ### Usage:
 python VariableLangevin.py -N "Number of particles" -x "filepath"/"outputname_prefix" -S "Seed for RNG" -n "How many timesteps between strong kicks" -T "k_B T"
 ### Example Usage:
-python VariableLangevin.py -N 1 <br />
+python VariableLangevin.py -N 1 -x outputdir/Sim_N1T0.01 -T 0.01 -S 105693 <br />
 
 ### Dependencies
 numpy
